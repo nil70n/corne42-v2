@@ -117,7 +117,7 @@
       bindings = <
 &none &kp N1    &kp N2          &kp N3           &kp N4        &kp N5           &kp N6        &kp N7         &kp N8       &kp N9          &kp N0   &none
 &none &kp MINUS &mt LCTRL EQUAL &mt LSHFT LBKT   &mt LGUI RBKT &mt LALT GRAVE   &mt RALT LEFT &mt RGUI DOWN  &mt RSHFT UP &mt RCTRL RIGHT &kp SEMI &none
-&none &kp CAPS  &none           &kp INS          &kp PSCRN     &kp K_APP        &kp HOME      &kp PG_DN      &kp PG_UP    &kp END         &kp BSLH &none
+&none &kp CAPS  &none           &kp INS          &kp PSCRN     &none            &kp HOME      &kp PG_DN      &kp PG_UP    &kp END         &kp BSLH &none
                                 &lt 2 ESC        &t2sc         &kp SPACE        &lt 1 RET     &htls 1 BSPC   &t6dn
       >;
     };
@@ -126,7 +126,7 @@
       bindings = <
 &none &kp F1       &kp F2        &kp F3     &kp F4      &kp F5       &kp F6      &kp F7   &kp F8    &kp F9    &kp F10    &none
 &none &kp F11      &kp LCTRL     &kp LSHFT  &kp LGUI    &kp LALT     &kp RALT    &kp RGUI &kp RSHFT &kp RCTRL &kp F12    &none
-&BT_CLR &out OUT_USB &out OUT_BLE  &kp K_COPY &kp K_PASTE &bt BT_PRV   &bt BT_NXT  &none    &none   &none     &none      &none
+&none &out OUT_USB &out OUT_BLE  &kp K_COPY &kp K_PASTE &bt BT_PRV   &bt BT_NXT  &none    &none     &none     &bt BT_CLR &none
                                  &kp ESC    &t2sc    &kp SPACE    &lt 1 RET   &htls 1 BSPC  &kp DEL
       >;
     };
